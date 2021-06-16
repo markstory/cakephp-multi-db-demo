@@ -288,7 +288,7 @@ return [
             'timezone' => 'UTC',
             'cacheMetadata' => true,
             'quoteIdentifiers' => false,
-            'log' => false,
+            'log' => true,
         ],
         'test_other' => [
             'className' => Connection::class,
@@ -297,7 +297,7 @@ return [
             'timezone' => 'UTC',
             'cacheMetadata' => true,
             'quoteIdentifiers' => false,
-            'log' => false,
+            'log' => true,
         ],
     ],
 
